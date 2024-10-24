@@ -20,6 +20,12 @@ public class Coche {
         this.modelo = modelo;
         this.año = año;
     }
+    
+    public Coche() {
+        this.marca = "Kia";
+        this.modelo = "Cerato";
+        this.año = 2020;
+    }
 
     // Métodos
     public void acelerar() {

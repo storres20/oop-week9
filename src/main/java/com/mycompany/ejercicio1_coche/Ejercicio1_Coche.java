@@ -12,7 +12,8 @@ public class Ejercicio1_Coche {
 
     public static void main(String[] args) {
         // Crear un objeto de la clase Coche
-        Coche miCoche = new Coche("Toyota", "Corolla", 2020);
+        //Coche miCoche = new Coche("Toyota", "Corolla", 2020);
+        Coche miCoche = new Coche();
 
         // Llamar a los métodos del objeto
         miCoche.mostrarInfo();
